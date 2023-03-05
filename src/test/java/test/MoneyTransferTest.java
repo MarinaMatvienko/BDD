@@ -14,9 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class MoneyTransferTest {
 
     @BeforeEach
-    void openPage() {
-        open("http://localhost:9999");
-    }
+    void openPage() {open("http://localhost:9999");}
 
     @AfterEach
     void resetBalance() {
